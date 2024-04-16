@@ -1,0 +1,36 @@
+=> It is a JS binding framework which binds the HTML UI and JS Model. It also helps us to build SPA by using the concept of
+routing. It also has a feature like HTTP, DI.
+=> Directives change the behaviour of DOM.
+=> Structural Directives(*ngIf, *ngFor): Change the DOM layout by adding and removing elements, 
+	Attribute Directive ("[]") = Change the appearance and behaviour of HTML elements, 
+	Component Directives = It'sd customizer user control. which have its own template
+=> All references of javascript have been list of its package.json.
+=> TypeScript superset of JavaScript.
+=> Decorator defines what kind of angular class is it. 
+=> View and components communicate with each other is data binding. 
+1. Intrepolation binding: {{}}
+2. Property Binding: []
+3. Event Binding:- ()
+4. 2 way binding :- [()]
+=> Important pillars in ANgular Architecture:
+1. Template: HTML View of angular
+2. Component: Binds the view and model
+3. Modules: Groups components logically
+4. Bindings: Defines how view and component communicate
+5. Directive:- Changes the HTML DOM Behaviour
+6. Services. Helps to share common logic accross project
+7. DI:- It help to inject instance across constructor.
+=> Single page application where the main UI gets loaded and then the needed UI is loaded on demand.
+=> Routing is a simple collection which has two things URL and where component to load from that URL.
+=> Lazy loading means on demand loading. Loading only the necessary HTML, CSS and JS files so that you have 
+better performance.
+=> Services helps you to share common functionality across Angular projects.
+=> Dependency Injection is an application design pattern where rather than creating object instances from within the component
+Angular injects it via the constructor.
+=> Change in one place and reflect to all project.
+=> We use observables to perform asynchronous operations and handle asynchronous data.
+=> Types of Decorators:
+1. Class Decorators.: @Component, @NgModule
+2. Property Decorators:- @input, @output, @ViewChild
+3. Method Decorators:- @HostListeners
+4. Parameter Decorators :- @inject
