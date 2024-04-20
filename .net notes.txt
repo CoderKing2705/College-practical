@@ -1,0 +1,21 @@
+=> It is a open source application developed platform provided by microsoft. It is also a cross platform as it can run on windows, Linux, and MacOS.
+=> It is used to create server side application.
+=> CoreCLR is the run time execution engine provided by .NET core.
+=> Request pipeline will be configure by configure pipeline
+=> DI is a design pattern that allows us to develop loosely coupled application.
+=> Types of DI
+   	1. Constructor DI
+   	2. Property Injection
+	3. Method Injection	
+=> Service lifetimes describe for how long the instance of any class will be persist.
+=> Types Service Lifertime
+	1. Add Singleton - Only one instance will be created and it will share across the application
+	2. Add Scoped - Whenever you create instance, it will be created once per user and shared across all the request
+	3. Add Transient - Whenever you ask for instance, it will return new request..
+=> A component which is executed on Every Request in the .net core application is call middleware. 
+=> Request delegate are used to build request pipeline by using RUN, MAP, and USE.
+=> The process of collection or removal of programs that are no longer in use thus freeing up space is call Garbage collector.
+=> NuGet packages are parts of the package management system for .NET which are essential to carry on a developement on the platform.
+=> Docker is a service container that is used to develop and publish application.
+=> The startup class in .net core contains the Configure methods and cofigure services.
+=> 																				
