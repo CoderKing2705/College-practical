@@ -18,4 +18,5 @@
 => NuGet packages are parts of the package management system for .NET which are essential to carry on a developement on the platform.
 => Docker is a service container that is used to develop and publish application.
 => The startup class in .net core contains the Configure methods and cofigure services.
-=> 																				
+=> Abstract class used to declare properties, and methods. Fields cannot be declared using interfaces. Multiple Inheritance cannot be acheived through abstract class, but it can be achieved through interfaces.
+=> 
